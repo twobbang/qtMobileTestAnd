@@ -19,8 +19,24 @@ Window {
         height: 32
         text: "Click me"
 
-        onClicked: w1.onBtnClickSignal();
+        //onClicked: w1.onBtnClickSignal();
+        //onClicked:
+        //{
+
+        //}
     }
+
+    TextField {
+        id: myTextField
+        x: 150
+        y: 192
+        width: 150
+        height: 20
+        font.pointSize: 11
+        placeholderText: qsTr("")
+    }
+
+
 
 
 }

@@ -17,6 +17,15 @@ FaceDetect::FaceDetect(QObject *parent) : QObject{parent}
 void FaceDetect::callMeSlot()
 {
     qDebug() << "I'm being called!!";
+
+
+
+
+}
+
+void FaceDetect::VideoStart()
+{
+
 }
 
 /*

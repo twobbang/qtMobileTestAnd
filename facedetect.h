@@ -9,7 +9,7 @@ class FaceDetect : public QObject
 public:
     explicit FaceDetect(QObject *parent = nullptr);
 
-    //void VideoStart();
+    Q_INVOKABLE void VideoStart();
 
 signals:
     void onBtnClickSignal();
