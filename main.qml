@@ -19,12 +19,12 @@ Window {
         height: 32
         text: "Click me"
 
-        onClicked: w1.onBtnClickSignal();
+        //onClicked: w1.onBtnClickSignal();
 
-        //onClicked:
-        //{
-
-        //}
+        onClicked:
+        {
+            w1.onBtnClickSignal();
+        }
 
     }
 
