@@ -22,11 +22,11 @@ int main(int argc, char *argv[])
     //QQmlContext * rootContext = engine.rootContext();
     //rootContext->setContextProperty("FaceDetectClass", &facedetect);
 
-    engine.rootContext()->setContextProperty("facedetectClass", &facedetect);
+    //engine.rootContext()->setContextProperty("facedetectClass", &facedetect);
 
     QObject::connect(&facedetect, &FaceDetect::onBtnClickSignal, &facedetect, &FaceDetect::callMeSlot);
 
-    //facedetect.callMe();
+    //facedetect.callMeSlot();
 
     return app.exec();
 }

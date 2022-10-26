@@ -20,10 +20,12 @@ Window {
         text: "Click me"
 
         //onClicked: w1.onBtnClickSignal();
+        //onClicked: facedetectClass.callMeSlot();
 
         onClicked:
         {
             w1.onBtnClickSignal();
+            myTextField.text = "Test"
         }
 
     }
